@@ -171,6 +171,7 @@ let enterValue = prompt("Enter a month");
 let valueToLc = enterValue.toLowerCase();
 let daysInMonth;
 let year;
+let hello;
 
 //leap year..
 // if (year / 400 || year / 4) {
