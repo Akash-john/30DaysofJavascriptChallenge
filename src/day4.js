@@ -173,6 +173,8 @@ let daysInMonth;
 let year;
 let hello;
 
+let compareTheGit;
+
 //leap year..
 // if (year / 400 || year / 4) {
 
