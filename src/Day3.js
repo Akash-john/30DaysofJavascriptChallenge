@@ -4,9 +4,11 @@
 // let isLightOn = true;
 // let isRaining = false;
 let gitHub = true;
+
+let helww = false;
 // let isHungry = false;
 // let isMarried = true;
-// let truValue = 4 > 3;
+// let truValue = 4 > 3
 // let falseValue = 4 < 5;
 
 //Truthy values
