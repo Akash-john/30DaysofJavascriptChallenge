@@ -425,17 +425,17 @@
 // ]; // arr containing different data types
 // console.log(mixedDataTypes.length);
 
-let itCompanies = [
-  "Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon",
-];
+// let itCompanies = [
+//   "Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon",
+// ];
 
-// console.log(`${itCompanies.toString()} are big IT companies`);
+// // console.log(`${itCompanies.toString()} are big IT companies`);
 
-let resultOfCompanies = itCompanies.toString().replace("and", " ,").split(", ");
+// let resultOfCompanies = itCompanies.toString().replace("and", " ,").split(", ");
 
-resultOfCompanies.length = 0;
+// resultOfCompanies.length = 0;
 
-console.log(resultOfCompanies);
+// console.log(resultOfCompanies);
 // let resultOfCompanies = itCompanies.toString().match(/oo/gi);
 
 // // console.log(
