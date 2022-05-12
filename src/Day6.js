@@ -179,6 +179,3 @@
 //   if (arr.indexOf(r) === -1) arr.push(r);
 // }
 // console.log(arr);
-
-const result = Math.random().toString(36).substring(2, 10);
-console.log(result);
