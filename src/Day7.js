@@ -134,3 +134,116 @@
 
 // console.log(generateName());
 // console.log(generateName("Arasu", "Ramesh"));
+
+//Exercises
+
+// function fullName() {
+//   let firstName = "Akash";
+//   let lastName = "Ramesh";
+//   let fullName = firstName + lastName;
+//   return fullName;
+// }
+
+// console.log(fullName());
+
+// function fullName(firstName, lastName) {
+//   return `${firstName} ${lastName}`;
+// }
+
+// console.log(fullName("Akash", "john"));
+
+// function addNumbers(a, b) {
+//   let sum = a + b;
+
+//   return sum;
+// }
+
+// console.log(addNumbers(1, 5));
+
+// function areaOfReactangle(length, width) {
+//   let area = length * width;
+//   return area;
+// }
+
+// console.log(areaOfReactangle(3, 3));
+
+// function perimeterOfRectangle(length, width) {
+//   let perimeter = 2 * (length + width);
+//   return perimeter;
+// }
+
+// console.log(perimeterOfRectangle(2, 3));
+
+// function rectangularprism(r) {
+//   const PI = 3.14;
+//   let volume = PI * r * r;
+//   return volume;
+// }
+
+// console.log(rectangularprism(3));
+
+// function circumOfCircle(r) {
+//   const PI = 3.14;
+//   let circumference = 2 * PI * r;
+//   return circumference;
+// }
+
+// console.log(circumOfCircle(1));
+
+// const density = (mass, volume) => {
+//   let density = mass / volume;
+//   return density;
+// };
+
+// console.log(density(10, 5));
+
+// const calculateSpeed = (totaldistance, movingObject, time) => {
+//   let speed = totaldistance / movingObject / time;
+//   return speed;
+// };
+
+// console.log(calculateSpeed(2,10,20));
+
+// const weight = (mass, gravity) => {
+//   let weight = mass * gravity;
+//   return weight;
+// };
+
+// console.log(weight(2, 3));
+
+// const convertCelsiusToFahrenheit = (oC) => {
+//   let oF = (oC * 9) / 5 + 32;
+//   return oF;
+// };
+// console.log(convertCelsiusToFahrenheit(40));
+
+// const bmi = (weight, height) => {
+//   let bmi = weight / (height * height);
+
+//   if (bmi <= 18.5) {
+//     console.log(`Underweight: BMI is less than 18.5`);
+//   } else if (bmi <= 24.9 && bmi >= 18.5) {
+//     console.log(`Normal weight: BMI is 18.5 to 24.9`);
+//   } else if (bmi >= 25 && bmi <= 29.9) {
+//     console.log(`Overweight: BMI is 25 to 29.9`);
+//   } else {
+//     console.log(`Obese: BMI is 30 or more`);
+//   }
+//   return bmi;
+// };
+
+// bmi(200, 5);
+
+// const findMax = (...args) => {
+//   let i = 0;
+//   let maximum;
+
+//   while (i < args.length) {
+//     if (args[i] > maximum) {
+//       maximum = args[i];
+//     }
+//   }
+//   return maximum;
+// };
+
+// console.log(findMax(1, 2, 3, 4));
